@@ -1,27 +1,42 @@
-# Next.js + Tailwind CSS Example
+# Netflix UI Clone
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
-## Deploy your own
+## Purpose
+This project was stated as learning purpose and following stacks are mainly used
+   * <img src="https://img.shields.io/badge/Next-000000?style=flat-square&logo=next.js&logoColor=white"/>
+   * <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white"/>
+   * <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+   * <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
+   * <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
+   * Libraries
+     * Recoil
+     * Formik
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+     
+  
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Getting Starged
 
-## How to use
+ ```js
+ git clone https://github.com/SeleneCho/NetflixUI.git
+ npm install
+ npm start
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+ ```
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Features
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+ 
+ |Feature|Description|
+|------|---|
+|Authentication|User can sign in with their google account or create a new one|
+|Upload videos|Users can upload a video with a unique thumbnail or tags|
+|Searching videos|Users can search a specific video with its title or tag|
+|Add comments|Users can upload a comment a video in real time|
+|Related videos|Recommended videos would be suggested based on current user's liked list|
+|Like & Dislike|Users can like or dislike a video|
+|Change themes|This platform comes with two themes - Lilic & Brown|
+|Responsive layout|This platform supports responsive layout based on user's screen size|
+|Account setting|Users can change their username or a profile picture|
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
