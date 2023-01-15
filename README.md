@@ -1,4 +1,8 @@
 # Netflix UI Clone
+![NETFLIX-UI (3)](https://user-images.githubusercontent.com/84310302/212529219-6169149d-a4d0-443a-805f-5cc98b74653d.png)
+
+
+
 
 
 ## Purpose
@@ -8,9 +12,10 @@ This project was stated as learning purpose and following stacks are mainly used
    * <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
    * <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
    * <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
-   * Libraries
+   * Others
      * Recoil
      * Formik
+     * Axios
 
      
   
@@ -27,16 +32,30 @@ This project was stated as learning purpose and following stacks are mainly used
 
 ## Features
 
- 
- |Feature|Description|
-|------|---|
-|Authentication|User can sign in with their google account or create a new one|
-|Upload videos|Users can upload a video with a unique thumbnail or tags|
-|Searching videos|Users can search a specific video with its title or tag|
-|Add comments|Users can upload a comment a video in real time|
-|Related videos|Recommended videos would be suggested based on current user's liked list|
-|Like & Dislike|Users can like or dislike a video|
-|Change themes|This platform comes with two themes - Lilic & Brown|
-|Responsive layout|This platform supports responsive layout based on user's screen size|
-|Account setting|Users can change their username or a profile picture|
+  * Authentication (Google, Github, Email auth with NextAuth)
+  <img width="1440" alt="Screenshot 2023-01-15 at 4 36 07 PM" src="https://user-images.githubusercontent.com/84310302/212528668-00072961-1635-42f8-82f9-132a3c79fd4c.png">
+
+  * Horizontal scrollable menu 
+  
+  ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/84310302/212528852-e0d6f698-ca50-403c-a8ad-9958351ab46f.gif)
+  
+  
+  
+  
+  
+  * Trailers (with react-player)
+  
+  ![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/84310302/212528965-fdeedf8f-c89e-4489-8e3b-2dfda70cb683.gif)
+
+  
+  
+  * Random banner
+  
+  ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/84310302/212528621-de450d95-6271-4c23-8e2f-c3d346d7fc5e.gif)
+  
+  
+  * Responsive Design (with Tailwind CSS)
+  
+  ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/84310302/212529407-33dba9c5-ead2-4b8c-861c-f4b70774605c.gif)
+
 
