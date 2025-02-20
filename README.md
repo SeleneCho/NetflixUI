@@ -1,8 +1,5 @@
 # Netflix UI Clone
 
-[Live Demo](https://selene-netflixclone.netlify.app/)
-![NETFLIX-UI (3)](https://user-images.githubusercontent.com/84310302/212529219-6169149d-a4d0-443a-805f-5cc98b74653d.png)
-
 
 
 
